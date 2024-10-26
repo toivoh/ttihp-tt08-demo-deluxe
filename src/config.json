@@ -19,10 +19,8 @@
 
   "//": "Configuration docs: https://openroad-flow-scripts.readthedocs.io/en/latest/user/FlowVariables.html",
 
-  "//": "CLOCK_PERIOD - Increase this in case you are getting setup time violations.",
-  "//": "The value is in nanoseconds, so 20ns == 50MHz.",
   "//": "# 1/(19.84 ns) > 50.4 MHz",
-  "CLOCK_PERIOD": 19.84,
+  "ABC_CLOCK_PERIOD_IN_PS": 19840,
 
   "//": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
   "//": "!!! DO NOT CHANGE ANYTHING BELOW THIS POINT !!!",
